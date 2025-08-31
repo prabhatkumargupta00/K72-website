@@ -5,7 +5,7 @@ import HomeButtonText from '../Components/Home/HomeButtonText'
 
 const Home = () => {
   return (
-    <div>
+    <div className='text-white'>
         <div className='h-screen w-screen fixed'>
             <Video />
         </div>

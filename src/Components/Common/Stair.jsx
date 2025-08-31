@@ -10,7 +10,7 @@ const Stair = (props) => {
     const pageRef = useRef(null);
 
     // console.log(locate.pathname)
-    console.log(props)
+    // console.log(props)
 
     const StairParentRef = useRef(null);
     useGSAP(function () {
@@ -39,7 +39,7 @@ const Stair = (props) => {
 
         gsap.from(pageRef.current,{
             opacity:0,
-            delay:1.2,
+            delay:1.4,
             scale: 1.2
         })
     }, [locate.pathname])

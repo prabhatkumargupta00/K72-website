@@ -9,9 +9,26 @@
   src: url(/Fonts/Lausanne-500.woff2);
 }
 
-body{
-  background-color: #222;
+.moveLink{
+  opacity: 0;
 }
-body{
-  overflow-x: hidden;
+
+.mainLink:hover .moveLink{
+  opacity: 1;
+  transition: all ease 0.5s;
+}
+
+
+.moveX{
+  animation: movingAnimation 10s linear infinite ;
+}
+
+@keyframes movingAnimation {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+  
 }
