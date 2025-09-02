@@ -11,7 +11,7 @@ const NavContext = ({children}) => {
     <div>
           <NavBarContext.Provider value={[navOpen, setNavOpen]}>
             {children}
-        </NavBarContext.Provider>
+          </NavBarContext.Provider>
     </div>
   )
 }
