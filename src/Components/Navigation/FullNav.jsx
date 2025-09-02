@@ -120,15 +120,15 @@ const FullNav = () => {
           </div>
           <div onClick={()=>{
             setNavOpen(false)
-          }} className='h-22 w-22 relative m-1 cursor-pointer '>
-            <div className='h-30 w-1 absolute -rotate-45 origin-top bg-[#D3FD50]'></div>
-            <div className='h-30 w-1 absolute rotate-45 origin-top bg-[#D3FD50] right-0'></div>
+          }} className='lg:h-22 lg:w-22 h-24 w-24 relative m-1 cursor-pointer '>
+            <div className='lg:h-30 h-34 lg:w-1 w-0.5  absolute -rotate-45 origin-top bg-[#fff]'></div>
+            <div className='lg:h-30 h-34 lg:w-1 w-0.5 absolute rotate-45 origin-top bg-[#fff] right-0'></div>
           </div>
         </div>
-        <div className='py-16' id='all-links'>
+        <div className='lg:py-16 py-30' id='all-links'>
           <div className='link origin-top relative  border-t-1 border-white'>
-            <h1 className='text-center  font-[font2] text-[8vw] leading-[0.8] pt-4 uppercase '>Projects</h1>
-            <div className=' moveLink bg-[#d3fd50] text-black absolute flex top-0'>
+            <h1 className='text-center  font-[font2] lg:text-[8vw] text-6xl leading-[0.8] lg:pt-4 py-2 pt-3 uppercase '>Projets</h1>
+            <div className=' not-lg:hidden moveLink bg-[#d3fd50] text-black absolute flex top-0'>
               <div className=' moveX flex flex-nowrap w-full' >
                 <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] pt-4 uppercase'>pour tout voir</h2>
                 <img className='shrink-0 rounded-full mt-2 h-24 w-72 object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" alt="" />
@@ -145,8 +145,8 @@ const FullNav = () => {
             </div>
           </div>
           <div className='link origin-top relative  border-t-1 border-white'>
-            <h1 className='text-center  font-[font2] text-[8vw] leading-[0.8] pt-4 uppercase '>agence</h1>
-            <div className=' moveLink bg-[#d3fd50] text-black absolute flex top-0'>
+            <h1 className='text-center  font-[font2] lg:text-[8vw] text-6xl leading-[0.8] lg:pt-4 py-2 pt-3 uppercase '>agence</h1>
+            <div className=' not-lg:hidden moveLink bg-[#d3fd50] text-black absolute flex top-0'>
               <div className=' moveX flex flex-nowrap w-full' >
                 <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] pt-4 uppercase'>pour tout savoir</h2>
                 <img className='shrink-0 rounded-full mt-2 h-24 w-72 object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" alt="" />
@@ -163,8 +163,8 @@ const FullNav = () => {
             </div>
           </div>
           <div className='link origin-top relative  border-t-1 border-white'>
-            <h1 className='text-center  font-[font2] text-[8vw] leading-[0.8] pt-4 uppercase '>contact</h1>
-            <div className=' moveLink bg-[#d3fd50] text-black absolute flex top-0'>
+            <h1 className='text-center  font-[font2] lg:text-[8vw] text-6xl leading-[0.8] lg:pt-4 py-2 pt-3 uppercase '>contact</h1>
+            <div className=' not-lg:hidden moveLink bg-[#d3fd50] text-black absolute flex top-0'>
               <div className=' moveX flex flex-nowrap w-full' >
                 <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] pt-4 uppercase'>pour envoyer un fax</h2>
                 <img className='shrink-0 rounded-full mt-2 h-24 w-72 object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" alt="" />
@@ -181,8 +181,8 @@ const FullNav = () => {
             </div>
           </div>
           <div className='link origin-top relative  border-y-1 border-white'>
-            <h1 className='text-center  font-[font2] text-[8vw] leading-[0.8] pt-4 uppercase '>Bogue</h1>
-            <div className=' moveLink bg-[#d3fd50] text-black absolute flex top-0'>
+            <h1 className='text-center  font-[font2] lg:text-[8vw] text-6xl leading-[0.8] lg:pt-4 py-2 pt-3 uppercase '>Bogue</h1>
+            <div className=' not-lg:hidden moveLink bg-[#d3fd50] text-black absolute flex top-0'>
               <div className=' moveX flex flex-nowrap w-full' >
                 <h2 className='whitespace-nowrap font-[font2] text-[8vw] leading-[0.8] pt-4 uppercase'>lire les articles</h2>
                 <img className='shrink-0 rounded-full mt-2 h-24 w-72 object-cover' src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" alt="" />

@@ -21,15 +21,15 @@ const Projects = () => {
 
   useGSAP(function () {
     gsap.from('.hero', {
-      height: 0,
+      height: '100px',
       stagger:{
-        amount: 0.4
+        amount: 1
       },
       scrollTrigger: {
         trigger: ".lol",
         markers: true,
         start: "top 100%",
-        end: 'top -300%',
+        end: 'top -150%',
         scrub: true
       }
     })
@@ -38,15 +38,15 @@ const Projects = () => {
 
 
   return (
-    <div className='p-4 '>
+    <div className='lg:p-4 '>
       <div className=' pt-[45vh] '>
-        <h1 className='uppercase text-[9vw] font-[font2] '>Projets</h1>
+        <h1 className='uppercase lg:text-[9vw] text-[20vw] text-center font-[font2] '>Projets</h1>
       </div>
 
-      <div className='-mt-10 lol'>
+      <div className='lg:-mt-10 -mt-6 lol'>
         {
-          projects.map((elem,index) => {
-            return <div key={index} className=' hero w-full h-[65vh] gap-4 mb-4 flex'  >
+          projects.map((elem,idx) => {
+            return <div key={idx} className=' hero w-full lg:h-[600px] h-[350px] lg:gap-4 gap-2 mb-4 flex lg:flex-row flex-col '   >
               <ProjectCard image1={elem.image1} image2={elem.image2} />
             </div>
           })
