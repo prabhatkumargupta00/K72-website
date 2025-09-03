@@ -4,7 +4,6 @@ import Agence from './Pages/Agence'
 import Projects from './Pages/Projects'
 import Navbar from './Components/Navigation/Navbar'
 import FullNav from './Components/Navigation/FullNav'
-import Footer from './Components/Navigation/Footer'
 
 
 const App = () => {
